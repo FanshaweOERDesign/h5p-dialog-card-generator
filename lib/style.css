@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../images/fanshawe_wallpaper.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: monospace, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.wrap {
+    width: 60%;
+    text-align: center;
+    background-color: #f7f5f5;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.child {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+#targetURL {
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 0.5rem;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+footer a {
+    color: white;
+}
+
+#logo {
+    width: 74px;
+}
+
+#logo-div {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+#error {
+    background-color: #d42621;
+    color: white;
+    font-weight: bold;
+    padding: 0.6rem;
+}
+
+#resultTxtCopyRes {
+    display: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+ #input-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        textarea {
+            width: 90%;
+            max-width: 800px;
+            height: 300px;
+            resize: vertical;
+            font-size: 1.1em;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            overflow-y: auto;
+            margin-bottom: 24px;
+            background: #fff;
+        }
+
+    @media (max-width: 600px) {
+        .wrap {
+            width: 90%;
+        }
+        textarea {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+            font-size: 1.2em;
+        }
+    }
+        
